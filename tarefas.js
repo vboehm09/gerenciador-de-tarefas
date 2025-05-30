@@ -12,14 +12,3 @@ console.log(`Tarefa removida: ${ultimaTarefaRemovida}`);
 
 console.log(`Depois de remover a tarefa: ${tarefas}`);
 
-//Etapa 3
-
-tarefas.unshift(`Assistir um filme`);
-
-console.log(`Depois de adicionar uma nova tarefa ${tarefas}`);
-
-//Etapa 4 
-
-tarefas.shift();
-
-console.log(`Com a primeira tarefa removida: ${tarefas}`);
