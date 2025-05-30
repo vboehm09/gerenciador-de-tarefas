@@ -31,3 +31,8 @@ console.log(`Nas tarefas inclui Ir à academia? ${tarefas.includes("Ir à academ
 //Etapa 6
 
 console.log(`Tarefas com string: ${tarefas.join(', ')}`);
+
+//Etapa 7 
+
+console.log(`Parte da tarefa (índices 2 a 4): ${tarefas.slice(2, 5)}`);
+
