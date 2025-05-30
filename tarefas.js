@@ -60,3 +60,8 @@ console.log(stringFinal);
 
 let tarefasFiltradas = tarefas.filter(tarefa => tarefa.length > 15);
 console.log("Tarefas filtradas (tarefas com mais de 15 caracteres:)", tarefasFiltradas);
+
+//Etapa 12 
+
+let tarefasOrdenadas = tarefas.sort();
+console.log(tarefas);
