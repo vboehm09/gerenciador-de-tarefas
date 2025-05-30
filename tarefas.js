@@ -55,3 +55,8 @@ let palavraNova = "Fazer:"
 let arrayModificado = tarefas.map(elemento => palavraNova + elemento);
 const stringFinal = arrayModificado.join(', ');
 console.log(stringFinal);
+
+//Etapa 11 
+
+let tarefasFiltradas = tarefas.filter(tarefa => tarefa.length > 15);
+console.log("Tarefas filtradas (tarefas com mais de 15 caracteres:)", tarefasFiltradas);
