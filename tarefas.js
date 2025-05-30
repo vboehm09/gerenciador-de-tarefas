@@ -23,3 +23,7 @@ console.log(`Depois de adicionar uma nova tarefa ${tarefas}`);
 tarefas.shift();
 
 console.log(`Com a primeira tarefa removida: ${tarefas}`);
+
+//Etapa 5
+
+console.log(`Nas tarefas inclui Ir à academia? ${tarefas.includes("Ir à academia")} `);
