@@ -26,7 +26,7 @@ console.log(`Com a primeira tarefa removida: ${tarefas}`);
 
 //Etapa 5
 
-console.log(`Nas tarefas inclui Ir à academia? ${tarefas.includes("Ir à academia")} `);
+console.log(`Nas tarefas inclui Ir à academia?: ${tarefas.includes("Ir à academia")} `);
 
 //Etapa 6
 
@@ -35,4 +35,12 @@ console.log(`Tarefas com string: ${tarefas.join(', ')}`);
 //Etapa 7 
 
 console.log(`Parte da tarefa (índices 2 a 4): ${tarefas.slice(2, 5)}`);
+
+//Etapa 8
+
+console.table(tarefas);
+let tarefasRemovidas = tarefas.splice(3, 1, "Passear com o pet");
+console.table(tarefasRemovidas);
+console.table(tarefas);
+
 
