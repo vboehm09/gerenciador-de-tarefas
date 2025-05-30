@@ -43,4 +43,9 @@ let tarefasRemovidas = tarefas.splice(3, 1, "Passear com o pet");
 console.table(tarefasRemovidas);
 console.table(tarefas);
 
+//Etapa 9 
+
+let tarefasNovas = ["Comprar roupa", "Arrumar cama", "Lavar roupa"];
+
+console.log(`Tarefas combinadas: ${tarefas.concat(tarefasNovas).join(',')}`);
 
